@@ -1,0 +1,195 @@
+body {
+	background-color: #384B42;
+	color: #a9c0b4;
+	text-align: left;
+}
+
+.content {
+    color: #384B42;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #a9c0b4;
+    padding-bottom: 15px;
+}
+
+hr {
+    border: 1px solid #81928a;
+}
+
+/* Introduction Styles*/
+.top {
+    width: 100%;
+}
+
+.intro {
+    font-size: 14pt;
+    size: 100%;
+    text-align: left;
+    margin: 10px;
+}
+
+.publish_info {
+    float: left;
+    font-size: 12pt;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-left: 5px;
+    line-height: 0px;
+    margin-bottom: 5px;
+}
+
+.publish_info * {
+    display: inline;
+    color: #384B42;
+    font-style: italic;
+}
+
+.publish_info a:hover {
+    color: #81928a;
+}
+
+.publish_info:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Video Styles */
+.video {
+    text-align: center;
+    padding: 0px;
+}
+
+.video iframe {
+    display: inline;
+}
+
+/* Information Styles */
+.info {
+    margin: 10px;
+}
+
+.info p {
+    margin: 0px;
+}
+
+h3 {
+    margin: 0px;
+    margin-top: 15px;
+}
+
+ul {
+    margin: 0px;
+}
+
+/* Download Styles */
+.download {
+    margin: 10px;
+}
+
+.download table {
+    width: 60%;
+}
+
+.download .version {
+    width: 10%;
+}
+
+.download .name {
+    width: 80%;
+}
+
+.download .date {
+    width: 10%;
+}
+
+.download table, th, td {
+    border: 1px solid #384B42;
+    border-collapse: collapse;
+}
+
+.download_holder {
+    padding: 5px;
+    padding-top: 10px;
+    float: right;
+    text-align: right;
+}
+
+.download .download_holder {
+    padding: 5px;
+    padding-top: 15px;
+}
+
+.main_download {
+    margin: auto;
+    align-items: center;
+    vertical-align: bottom;
+    color: #a9c0b4;
+    font-size: 14pt;
+    background-color: #384B42;
+    padding: 15px 32px;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+.main_download:hover {
+    background-color: #81928a;
+    text-decoration: underline;
+}
+
+.main_download img {
+    width: 14px;
+    height: 14px;
+    object-fit: contain;
+}
+
+
+/* Aa*/
+h1 {
+    color: #384B42;
+    font-size: 30pt;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-thickness: 2pt;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+h2 {
+    color: #384B42;
+    font-size: 25pt;
+    text-decoration: underline;
+    text-decoration-thickness: 2pt;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.column {
+    width: 49%;
+}
+
+.column.left {
+    text-align: right;
+    float: left;
+}
+
+.column img {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+
+.column.right {
+    text-align: left;
+    float: right;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
