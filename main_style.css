@@ -1,26 +1,5 @@
 body {
-	background-color: #1E0019;
+	background-color: #113B2B;
 	color: #4AFFBE;
-	text-shadow: 2px 2px #151515;
-	margin: 0px;
-	overflow: hidden;
-}
-
-.circle_button {
-	width: 100px;
-	height: 100px;
-	background-color: #454243;
-	border-width: 10px;
-	border-color: #123123;
-	
-	border-radius: 50%;
-	
-}
-
-.circle_button.blue {
-	background-color: #4AFFBE;
-}
-
-.circle_button:hover {
-	background-color: #000000;
+	text-align: center;
 }
