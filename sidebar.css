@@ -1,0 +1,25 @@
+.sidebar{
+    background: #a9c0b4;
+    position: fixed;
+    top: 5%;
+    left: 0;
+    width: 5%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.sidebar img {
+    width: 70%;
+}
+
+.sidebar table, .sidebar th, .sidebar td {
+    border: none;
+}
+
+.sidebar a {
+	color: black;
+}
+
+.sidebar a:hover {
+	color: gray;
+}

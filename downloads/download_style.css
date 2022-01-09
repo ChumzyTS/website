@@ -12,6 +12,7 @@ body {
     margin-right: 15%;
     background-color: #a9c0b4;
     padding-bottom: 15px;
+    margin-bottom: 50px;
 }
 
 hr {
@@ -146,7 +147,7 @@ ul {
 }
 
 
-/* Aa*/
+/* Other styles */
 h1 {
     color: #384B42;
     font-size: 30pt;

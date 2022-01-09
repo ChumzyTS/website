@@ -1,5 +1,21 @@
 body {
-	background-color: #113B2B;
-	color: #4AFFBE;
+	background-color: #384B42;
+	color: #a9c0b4;
+	text-align: center;
+}
+
+a {
+	color: #a9c0b4;
+}
+
+a:hover {
+	color: #81928a;
+}
+
+img {
+	width: 5%;
+}
+
+table {
 	text-align: center;
 }
