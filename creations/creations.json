@@ -1,7 +1,11 @@
 {
     "creations" : [
+        "dwarven_descent",
         "breakdown_dp",
         "simple_mixing_dp",
+        "robots_dont_like_magnets",
+        "boat_wars",
+        "old_tank_game",
         "channel_test"
     ]
 }

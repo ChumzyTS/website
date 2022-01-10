@@ -48,7 +48,7 @@ async function addCreation(name) {
     console.log(creationData);
 }
 
-// a
+// Create Display
 totalCreationNumber = -1;
 creationsLoaded = 0;
 allCreationData = [];
@@ -56,6 +56,10 @@ function listCreations() {
     if (creationsLoaded >= totalCreationNumber) {
         console.log(allCreationData);
         allCreationData.forEach(creation => {
+            // Get Object Holder
+            const holder = document.getElementById("creationHolder");
+
+            // Create Link
             link = document.createElement("a");
 
             textNode = document.createTextNode(creation["name"]);
@@ -63,9 +67,16 @@ function listCreations() {
 
             link.setAttribute("href",creation["link"]);
 
-            const holder = document.getElementById("creationHolder");
             holder.appendChild(link);
 
+            // Add Img
+            image = document.createElement("img");
+
+            image.setAttribute("src",creation["icon_path"]);
+
+            link.appendChild(image);
+
+            // Add Break
             breakElem = document.createElement("br");
             holder.appendChild(breakElem);
         });

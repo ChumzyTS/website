@@ -1,7 +1,6 @@
 {
     "name" : "Breakdown",
     "type" : "datapack",
-    "version" : "1.0.0",
     "icon_path" : "downloads/breakdown/pack_image.png",
     "link" : "/downloads/breakdown/page.html"
 }
