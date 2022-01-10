@@ -55,30 +55,48 @@ allCreationData = [];
 function listCreations() {
     if (creationsLoaded >= totalCreationNumber) {
         console.log(allCreationData);
+
+        // Get Object Holder
+        const holder = document.getElementById("creationHolder");
+
+        // Table
+        const table = document.createElement("table");
+        holder.appendChild(table);
+
+        var row;
+
+        var rowCounter = 0;
         allCreationData.forEach(creation => {
-            // Get Object Holder
-            const holder = document.getElementById("creationHolder");
+            if (rowCounter == 0) {
+                row = document.createElement("tr");
+                table.appendChild(row);
+                rowCounter = 3;
+            }
+
+            // Create td
+            tableData = document.createElement("td");
+            row.appendChild(tableData);
 
             // Create Link
             link = document.createElement("a");
 
-            textNode = document.createTextNode(creation["name"]);
-            link.appendChild(textNode);
+            //textNode = document.createTextNode(creation["name"]);
+            //link.appendChild(textNode);
 
             link.setAttribute("href",creation["link"]);
 
-            holder.appendChild(link);
+            tableData.appendChild(link);
 
             // Add Img
             image = document.createElement("img");
 
             image.setAttribute("src",creation["icon_path"]);
+            image.setAttribute("title",creation["name"]);
+            image.setAttribute("class", "img_icon");
 
             link.appendChild(image);
 
-            // Add Break
-            breakElem = document.createElement("br");
-            holder.appendChild(breakElem);
+            rowCounter -= 1;
         });
     }
 }

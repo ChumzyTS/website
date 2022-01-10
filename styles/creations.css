@@ -1,0 +1,64 @@
+/* Icons */
+.img_icon {
+    filter: none;
+    transition-property: filter;
+    transition-duration: 0.5s;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    
+    image-rendering: -moz-crisp-edges; /* Firefox */
+    image-rendering: -o-crisp-edges; /* Opera */
+    image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming) */
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
+}
+
+.img_icon:hover {
+    filter: grayscale(1);
+    transition-duration: 0s;
+}
+
+/* Creation Holder Div/Background */
+.creation_holder {
+    color: #384B42;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #a9c0b4;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+/* Table */
+table {
+    size: 100%;
+}
+
+table, th, td, tr {
+    padding: 0px;
+    margin: 0px;
+    border: 0px solid #384B42;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+th, td {
+    width: 33%;
+}
+
+tr {
+    width: 33%;
+    padding: 0px;
+    margin: 0px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+.creation_holder a {
+    padding: 0px;
+    margin: 0px;
+    font-size:0;
+    vertical-align: text-top;
+}
