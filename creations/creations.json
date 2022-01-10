@@ -1,6 +1,7 @@
 {
     "creations" : [
-        "test1",
-        "test2"
+        "breakdown_dp",
+        "simple_mixing_dp",
+        "channel_test"
     ]
 }
